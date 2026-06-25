@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTURMARY - Plataforma Educativa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-cubes"></i> INTURMARY
+        </div>
+        <nav class="nav-menu">
+            <a href="#inicio">Inicio</a>
+            <div class="dropdown">
+                <a href="#nosotros">Nosotros <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="mision.html"><i class="fa-solid fa-bullseye"></i> Misión</a>
+
+<a href="vision.html">
+<i class="fa-solid fa-eye"></i> Visión
+</a>
+
+<a href="valores.html"><i class="fa-solid fa-gem"></i> Valores</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#cursos">Cursos <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="cursos/word.html">
+    <i class="fa-brands fa-microsoft text-blue"></i> Word
+</a>
+
+<a href="cursos/excel.html">
+    <i class="fa-solid fa-file-excel text-green"></i> Excel
+</a>
+
+<a href="cursos/powerpoint.html">
+    <i class="fa-solid fa-file-powerpoint text-orange"></i> PowerPoint
+</a>
+
+<a href="cursos/canva.html">
+    <i class="fa-solid fa-palette text-purple"></i> Canva
+</a>
+                </div>
+            </div>
+            <a href="#certificados">Certificados</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="nav-auth">
+            <button class="btn-secondary" id="btn-open-register">Registrarme</button>
+            <button class="btn-primary" id="btn-open-login">Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        
+        <div class="hero-container">
+            <div class="hero-text">
+                <p class="hero-subtitle">Bienvenido a</p>
+                <h1 class="hero-title">INTURMARY</h1>
+                <p class="hero-tagline">Transformando el aprendizaje tecnológico.</p>
+                <p class="hero-description">Cursos de Microsoft Word, Excel, PowerPoint y Canva.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary-lg">Explorar Cursos</button>
+                    <button class="btn-outline-lg">Conócenos</button>
+                </div>
+            </div>
+            <div class="hero-image-pane">
+                <div class="tech-circle"></div>
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" alt="Estudiante Inturmary" class="student-img">
+                
+                <div class="stat-badge badge-1">
+                    <h3>+100</h3>
+                    <p>Estudiantes</p>
+                </div>
+                <div class="stat-badge badge-2">
+                    <h3>+4</h3>
+                    <p>Cursos</p>
+                </div>
+                <div class="stat-badge badge-3">
+                    <h3>100%</h3>
+                    <p>Online</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="floating-socials">
+            <a href="#" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="tk"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" class="wsp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <section class="features-bar">
+        <div class="feat-item"><i class="fa-solid fa-laptop-code"></i> <div><h4>Clases</h4><p>Interactivas</p></div></div>
+        <div class="feat-item"><i class="fa-solid fa-medal"></i> <div><h4>Certificados</h4><p>Digitales</p></div></div>
+        <div class="feat-item"><i class="fa-solid fa-graduation-cap"></i> <div><h4>Docentes</h4><p>Especializados</p></div></div>
+        <div class="feat-item"><i class="fa-solid fa-clock"></i> <div><h4>Acceso</h4><p>24/7</p></div></div>
+        <div class="feat-item"><i class="fa-solid fa-shield-halved"></i> <div><h4>Plataforma</h4><p>Segura</p></div></div>
+    </section>
+
+    <section class="courses-section" id="cursos">
+        <h2 class="section-title">Nuestros Cursos</h2>
+        <p class="section-subtitle">Aprende a tu ritmo desde cualquier lugar</p>
+        
+        <div class="courses-grid">
+            <div class="course-card card-word">
+                <div class="course-icon"><i class="fa-solid fa-file-word"></i></div>
+                <h3>Word</h3>
+                <p>Básico</p>
+                <div class="course-meta"><span><i class="fa-solid fa-circle-check"></i> 100%</span> <span>⭐⭐⭐⭐⭐</span></div>
+            </div>
+            <div class="course-card card-excel">
+                <div class="course-icon"><i class="fa-solid fa-file-excel"></i></div>
+                <h3>Excel</h3>
+                <p>Básico</p>
+                <div class="course-meta"><span><i class="fa-solid fa-circle-check"></i> 100%</span> <span>⭐⭐⭐⭐⭐</span></div>
+            </div>
+            <div class="course-card card-powerpoint">
+                <div class="course-icon"><i class="fa-solid fa-file-powerpoint"></i></div>
+                <h3>PowerPoint</h3>
+                <p>Profesional</p>
+                <div class="course-meta"><span><i class="fa-solid fa-circle-check"></i> 100%</span> <span>⭐⭐⭐⭐⭐</span></div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal-overlay" id="modal-register">
+        <div class="modal-card">
+            <button class="close-modal">&times;</button>
+            <div class="step-indicator">PASO 1: REGISTRO</div>
+            <h2>Crear Cuenta</h2>
+            <form id="form-register">
+                <input type="text" placeholder="Nombres y Apellidos" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="tel" placeholder="Número de Celular" required>
+                <input type="password" placeholder="Contraseña" required>
+                <input type="password" placeholder="Confirmar Contraseña" required>
+                <label class="checkbox-label">
+                    <input type="checkbox" required> Acepto los términos y condiciones
+                </label>
+                <button type="submit" class="btn-submit">Registrarme</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-success">
+        <div class="modal-card text-center">
+            <button class="close-modal">&times;</button>
+            <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <h2>¡Registro Exitoso!</h2>
+            <p>Tu cuenta fue creada correctamente.</p>
+            <button class="btn-submit" id="btn-go-to-login">Ir a Iniciar Sesión</button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-login">
+        <div class="modal-card">
+            <button class="close-modal">&times;</button>
+            <div class="step-indicator">PASO 2: INICIAR SESIÓN</div>
+            <h2>Iniciar Sesión</h2>
+            <form id="form-login">
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <div class="form-utils">
+                    <label><input type="checkbox"> Recordarme</label>
+                    <a href="#" class="forgot-pass">¿Olvidaste tu contraseña?</a>
+                </div>
+                <button type="submit" class="btn-submit btn-login-gradient">Ingresar</button>
+            </form>
+            <p class="switch-auth">¿No tienes cuenta? <a href="#" id="switch-to-reg">Regístrate</a></p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-dashboard">
+        <div class="dashboard-card">
+            <button class="close-modal">&times;</button>
+            <header class="dash-header">
+                <span><i class="fa-solid fa-cubes"></i> INTURMARY</span>
+                <nav><span>Inicio</span> <span>Cursos</span> <span>Certificados</span></nav>
+                <div class="user-avatar"><i class="fa-solid fa-circle-user"></i></div>
+            </header>
+            <div class="dash-body">
+                <h2>¡Bienvenida, Mary Cruz!</h2>
+                <p>Elige el curso que deseas aprender hoy:</p>
+                <div class="dash-grid">
+                    <div class="dash-item word">
+                        <i class="fa-solid fa-file-word"></i>
+                        <h4>Word Básico</h4>
+                        <button class="btn-view"
+onclick="window.location.href='cursos/word.html'">
+Ver Curso
+</button>
+                    </div>
+                    <div class="dash-item excel">
+                        <i class="fa-solid fa-file-excel"></i>
+                        <h4>Excel Básico</h4>
+                        <button class="btn-view">Ver Curso</button>
+                    </div>
+                    <div class="dash-item ppt">
+                        <i class="fa-solid fa-file-powerpoint"></i>
+                        <h4>PowerPoint Prof.</h4>
+                        <button class="btn-view">Ver Curso</button>
+                    </div>
+                    <div class="dash-item canva">
+                        <i class="fa-solid fa-palette"></i>
+                        <h4>Canva Diseño</h4>
+                        <button class="btn-view">Ver Curso</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bottom-features">
+        <span><i class="fa-solid fa-wand-magic-sparkles"></i> DISEÑO MODERNO</span>
+        <span><i class="fa-solid fa-mobile-screen-button"></i> 100% RESPONSIVE</span>
+        <span><i class="fa-solid fa-bolt"></i> ANIMACIONES</span>
+        <span><i class="fa-solid fa-compass"></i> FÁCIL NAVEGACIÓN</span>
+        <span><i class="fa-solid fa-star"></i> EXPERIENCIA PREMIUM ⭐⭐⭐⭐⭐</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Valores - INTURMARY</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+overflow-x:hidden;
+}
+
+.values-section{
+
+min-height:100vh;
+
+background:
+linear-gradient(135deg,#050816,#0d122b,#12093a);
+
+padding:80px 50px;
+
+text-align:center;
+
+transition:1s;
+
+}
+
+.values-title{
+
+font-size:60px;
+
+color:white;
+
+margin-bottom:60px;
+
+transition:.5s;
+
+cursor:pointer;
+
+}
+
+.values-title:hover{
+
+transform:scale(1.1);
+
+color:#4da6ff;
+
+}
+
+.values-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+}
+
+.value-card{
+
+height:320px;
+
+border-radius:25px;
+
+overflow:hidden;
+
+cursor:pointer;
+
+position:relative;
+
+background-size:cover;
+
+background-position:center;
+
+transition:all .6s ease;
+
+}
+
+.value-card:hover{
+
+transform:
+translateY(-15px)
+scale(1.08);
+
+box-shadow:
+0 0 20px #0056ff,
+0 0 40px #8a2be2,
+0 0 60px #00c4ff;
+
+}
+
+.overlay{
+
+position:absolute;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+padding:30px;
+
+background:
+linear-gradient(
+rgba(0,0,0,.6),
+rgba(0,0,0,.8));
+
+transition:.5s;
+
+}
+
+.value-card:hover .overlay{
+
+background:
+linear-gradient(
+rgba(0,86,255,.6),
+rgba(138,43,226,.7));
+
+}
+
+.overlay h3{
+
+font-size:30px;
+
+color:white;
+
+margin-bottom:15px;
+
+transition:.5s;
+
+}
+
+.value-card:hover h3{
+
+transform:scale(1.3);
+
+color:#ffffff;
+
+}
+
+.overlay p{
+
+font-size:18px;
+
+color:#e5e7eb;
+
+line-height:1.6;
+
+transition:.5s;
+
+}
+
+.value-card:hover p{
+
+transform:scale(1.1);
+
+color:white;
+
+}
+
+/* IMÁGENES */
+
+.responsabilidad{
+background-image:url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80');
+}
+
+.innovacion{
+background-image:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80');
+}
+
+.excelencia{
+background-image:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80');
+}
+
+.compromiso{
+background-image:url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80');
+}
+
+.equipo{
+background-image:url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80');
+}
+
+.creatividad{
+background-image:url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80');
+}
+
+.btn-back{
+
+display:inline-block;
+
+margin-top:50px;
+
+padding:15px 35px;
+
+background:#0056ff;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:30px;
+
+font-weight:bold;
+
+transition:.5s;
+
+}
+
+.btn-back:hover{
+
+transform:scale(1.1);
+
+box-shadow:
+0 0 20px #0056ff,
+0 0 40px #0056ff;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="values-section">
+
+<h1 class="values-title">
+⭐ Nuestros Valores
+</h1>
+
+<div class="values-grid">
+
+<div class="value-card responsabilidad">
+<div class="overlay">
+<h3>Responsabilidad</h3>
+<p>
+Cumplimos nuestros compromisos educativos con ética,
+puntualidad y dedicación.
+</p>
+</div>
+</div>
+
+<div class="value-card innovacion">
+<div class="overlay">
+<h3>Innovación</h3>
+<p>
+Incorporamos nuevas tecnologías para mejorar la experiencia de aprendizaje.
+</p>
+</div>
+</div>
+
+<div class="value-card excelencia">
+<div class="overlay">
+<h3>Excelencia</h3>
+<p>
+Buscamos siempre la máxima calidad en cada curso y servicio.
+</p>
+</div>
+</div>
+
+<div class="value-card compromiso">
+<div class="overlay">
+<h3>Compromiso</h3>
+<p>
+Acompañamos a nuestros estudiantes en cada etapa de su formación.
+</p>
+</div>
+</div>
+
+<div class="value-card equipo">
+<div class="overlay">
+<h3>Trabajo en Equipo</h3>
+<p>
+Fomentamos la colaboración y el respeto para alcanzar metas comunes.
+</p>
+</div>
+</div>
+
+<div class="value-card creatividad">
+<div class="overlay">
+<h3>Creatividad</h3>
+<p>
+Impulsamos nuevas ideas y soluciones innovadoras para el futuro.
+</p>
+</div>
+</div>
+
+</div>
+
+<a href="index.html" class="btn-back">
+<i class="fa-solid fa-house"></i> Volver al Inicio
+</a>
+
+</section>
+
+<script>
+
+document.addEventListener("mousemove",(e)=>{
+
+const x=e.clientX/window.innerWidth;
+const y=e.clientY/window.innerHeight;
+
+document.querySelector(".values-section").style.background=
+
+`radial-gradient(circle at ${x*100}% ${y*100}%,
+#0056ff,
+#12093a,
+#050816)`;
+
+});
+
+</script>
+
+</body>
+</html>
